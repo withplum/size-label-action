@@ -178,13 +178,11 @@ function getLabelChanges(newLabel, existingLabels) {
   const remove = [];
   for (const existingLabel of existingLabels) {
     const { name } = existingLabel;
-    if (name.startsWith("size/")) {
-      if (name === newLabel) {
-        add.pop();
-      } else {
-        remove.push(name);
-      }
-    }
+     if (name === newLabel) {
+       add.pop();
+     } else {
+       remove.push(name);
+     }
   }
   return { add, remove };
 }
