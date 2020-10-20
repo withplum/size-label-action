@@ -8,11 +8,7 @@ const globrex = require("globrex");
 const Diff = require("diff");
 
 const sizes = {
-  0: "XS",
-  10: "S",
-  30: "M",
-  100: "L",
-  500: "XL",
+  50: "Trivial",
   1000: "XXL"
 };
 
