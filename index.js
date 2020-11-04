@@ -9,7 +9,6 @@ const Diff = require("diff");
 
 const sizes = {
   0: "Trivial",
-  50: "",
   1000: "XXL"
 };
 
